@@ -32,9 +32,13 @@
 #define TIME_CLOCK_FREQ_HZ		19200000
 #define CNSS_RAMDUMP_MAGIC		0x574C414E
 #define CNSS_RAMDUMP_VERSION		0
+<<<<<<< HEAD
 // BEGIN IKSWR-1888 Support loading different bdwlan.elf
 #define MAX_FIRMWARE_NAME_LEN		32
 // END IKSWR-1888 Support loading different bdwlan.elf
+=======
+#define MAX_FIRMWARE_NAME_LEN		20
+>>>>>>> f32cef81eda6 (Merge d4cce53f18fdb94faa49904b23daef9865d4604d on remote branch)
 #define CNSS_INVALID_CAL_DURATION       0xFFFFFFFF
 
 #define CNSS_EVENT_SYNC   BIT(0)
